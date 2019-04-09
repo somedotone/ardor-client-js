@@ -1,0 +1,31 @@
+{
+  "name": "ardorclientjs",
+  "version": "1.0.0",
+  "description": "JavaScript client library to interact with the Ardor Blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somedotone/ardorClientJs.git"
+  },
+  "keywords": [
+    "ardor",
+    "client",
+    "lib"
+  ],
+  "author": "some.one",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/somedotone/ardorClientJs/issues"
+  },
+  "homepage": "https://github.com/somedotone/ardorClientJs#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "buffer": "^5.2.1",
+    "crypto-js": "^3.1.8",
+    "jsbn": "0.0.0",
+    "qs": "^6.7.0"
+  }
+}
