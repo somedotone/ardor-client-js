@@ -7,3 +7,6 @@ It is heavily inspired by these two repositories:
 
 basically it's a merge of these two repositories with additional features like passphrase creation, token and account property handling
 
+ ```
+npm install https://github.com/somedotone/ardorClientJs
+```
