@@ -1,6 +1,7 @@
 (function() {
 
   var account = require('./lib/account');
+  var helper = require('./lib/helpers')
   var passPhrase = require('./lib/passphrase');
   var interface = require('./lib/interface');
 
@@ -12,6 +13,11 @@
     signTransactionBytes: account.signTransactionBytes,
     verifyTransactionBytes: account.verifyTransactionBytes,
     generateToken: account.generateToken,
+
+    simpleHash: helper.simpleHash,
+    stringToHexString: helper.stringToHexString,
+    toEpochTime: helper.toEpochTime,
+    toUnixTime: helper.toUnixTime,
 
     generatePassphrase: passPhrase.generatePassphrase,
 
