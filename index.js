@@ -43,7 +43,8 @@
     validateToken: interface.validateToken,
     getAccountProperties : interface.getAccountProperties,
     setAccountProperty: interface.setAccountProperty,
-    deleteAccountProperty: interface.deleteAccountProperty
+    deleteAccountProperty: interface.deleteAccountProperty,
+    getTransaction: interface.getTransaction
   };
 
 })();
